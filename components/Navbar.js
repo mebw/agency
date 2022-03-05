@@ -5,16 +5,17 @@ const Navbar = () => {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.home}>AVOCADO</div>
-                <div className={styles.home}>
-                    <ul>
-                        <li><Link></Link></li>
-                        <li><Link></Link></li>
-                        <li><Link></Link></li>
-                        <li><Link></Link></li>
-                        <li><Link></Link></li>
-                    </ul>
-                </div>
+                <Link href="/">AVOCADO</Link>
+
+
+                <ul className={styles.list}>
+                    <li className={styles.listItem}><Link href="/products/design">Design</Link></li>
+                    <li className={styles.listItem}><Link href="/products/development">Development</Link></li>
+                    <li className={styles.listItem}><Link href="/products/production">Production</Link></li>
+                    <li className={styles.listItem}><Link href="/products/photography">Photography</Link></li>
+                    <li className={styles.listItem}><Link href="/contact">Contact</Link></li>
+                </ul>
+
             </div>
 
         </>
