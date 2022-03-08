@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/Footer.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import linkImg from '../public/img/link.png'
 const Footer = () => {
     return (
         <div className={styles.container}>
@@ -11,7 +12,9 @@ const Footer = () => {
                     <Link href="/contact">
                         <>
                             <span className={styles.workWithUs}>WORK WITH US</span>
-                            <Image src={"/img/link.png"}
+                            <Image
+                                src="/img/link.png"
+                                // src={linkImg}
                                 width="40px"
                                 height="40px"
                                 alt=''

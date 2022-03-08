@@ -16,8 +16,8 @@ a {
 }
 
 .circle {
-  width: 100vw;
-  height: 100vh;
+  width: 70vw;
+  height: 70vh;
   border-radius: 50%;
   opacity: 0.1;
   background-color: rgb(58, 223, 113);
